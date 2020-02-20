@@ -14,9 +14,6 @@ def copy_clipboard():
 def toggle_console():
     pyautogui.hotkey('command', 'option', 'i')
 
-def click_play():
-    pyautogui.moveTo(100, 150)
-
 def click_cow(coordinates):
     pyautogui.moveTo(int(coordinates[0]), int(coordinates[1]) + firefox_y_offset)
     pyautogui.click()
