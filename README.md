@@ -1,6 +1,6 @@
 # Find the Invisible Cow Automator
 
-Automates finding the invisible cow from the website [Find the Invisible Cow](https://findtheinvisiblecow.com/)  
+Automates finding the invisible cow from the website [Find the Invisible Cow](https://findtheinvisiblecow.com/).   
 Currently, the script is hard coded to work with Firefox's margins. 
 
 Dependencies:
@@ -8,7 +8,7 @@ Dependencies:
 * pyperclip
 
 First open the website and click "Start Script".
-Next the script:
+Next, run the script:
 ```
 python find_the_invisible_cow.py
 ```
