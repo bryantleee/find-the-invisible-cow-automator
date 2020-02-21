@@ -20,7 +20,7 @@ def click_cow(coordinates):
 
 def get_coordinates():
     toggle_console()
-    time.sleep(0.08)
+    time.sleep(0.15)
     pyperclip.copy('alert(window.app.children[1].__vue__._data.x + ", " + window.app.children[1].__vue__._data.y)')
     pyautogui.hotkey('command', 'v')
     pyautogui.hotkey('return')
